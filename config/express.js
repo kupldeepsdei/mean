@@ -53,7 +53,7 @@ module.exports = function(app, db) {
 
   // set .html as the default extension
   app.set('view engine', 'html');
-
+// SET ENGINE TO HTML
 
   // Dynamic helpers
   app.use(helpers(config.app.name));
